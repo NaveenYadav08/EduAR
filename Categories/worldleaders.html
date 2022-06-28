@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>World Leaders</title>
+  <meta charset="utf-8">
+</head>
+<script src="../Assets/Scripts/scene.js"></script>
+<script src="../Assets/Scripts/augmented.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+
+    <a-scene embedded arjs='sourceType: webcam;'>
+
+    <a-assets>
+    <a-asset-item id="modi" src="../Assets/Models/leaders/modi/scene.gltf">
+    <a-asset-item id="trump" src="../Assets/Models/leaders/trump/scene.gltf">
+    <a-asset-item id="putin" src="../Assets/Models/leaders/putin/scene.gltf">
+  </a-assets>
+
+
+  <!-- Using the asset management system. -->
+  
+    <!--modi-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/leaders/modi.patt'>
+        <a-gltf-model src="#modi" position="0 0 1.2" scale="1 1 1" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--putin-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/leaders/putin.patt'>
+        <a-gltf-model src="#putin" position="0 0 1.2" scale="1 1 1" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--trump-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/leaders/trump.patt'>
+      <a-entity animation-mixer gltf-model="#trump"  position="0 0 1.2" scale="0.5 0.5 0.5" rotation="-90 0 0"  ></a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Taj Mahal
+* source:	https://sketchfab.com/3d-models/taj-mahal-cc3388822f004d9b9b9166f2ee8385db
+* author:	MattParson (https://sketchfab.com/MattParson)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Taj Mahal" (https://sketchfab.com/3d-models/taj-mahal-cc3388822f004d9b9b9166f2ee8385db) by MattParson (https://sketchfab.com/MattParson) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trump
+* source:	https://sketchfab.com/3d-models/trump-232b8a7d4a694df5a0af9f0efe03cedc
+* author:	Hadley.osh (https://sketchfab.com/vulturefly)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trump" (https://sketchfab.com/3d-models/trump-232b8a7d4a694df5a0af9f0efe03cedc) by Hadley.osh (https://sketchfab.com/vulturefly) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

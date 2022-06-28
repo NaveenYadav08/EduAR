@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cat [Murdered: Soul Suspect]
+* source:	https://sketchfab.com/3d-models/cat-murdered-soul-suspect-836312def1b84e588866500a2bf79f0f
+* author:	mark2580 (https://sketchfab.com/mark2580)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cat [Murdered: Soul Suspect]" (https://sketchfab.com/3d-models/cat-murdered-soul-suspect-836312def1b84e588866500a2bf79f0f) by mark2580 (https://sketchfab.com/mark2580) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

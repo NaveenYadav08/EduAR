@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Chemistry</title>
+  <meta charset="utf-8">
+</head>
+<script src="../Assets/Scripts/scene.js"></script>
+<script src="../Assets/Scripts/augmented.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+
+    <a-scene embedded arjs='sourceType: webcam;'>
+
+    <a-assets>
+    <a-asset-item id="dna" src="../Assets/Models/Chemistry/dna/scene.gltf">
+    <a-asset-item id="sucrose" src="../Assets/Models/chemistry/sucrose/scene.gltf">
+    <a-asset-item id="insulin" src="../Assets/Models/chemistry/insulin/scene.gltf">
+  </a-assets>
+
+
+  <!-- Using the asset management system. -->
+  
+    <!--DNA-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/chemistry/dna.patt'>
+        <a-gltf-model src="#dna" position="0 0 -0.4" scale="1.5 1.5 1.5" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--sucrose-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/chemistry/suc.patt'>
+        <a-gltf-model src="#sucrose" scale="0.3 0.3 0.3" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--insulin-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/chemistry/insu.patt'>
+      <a-entity animation-mixer gltf-model="#insulin"  position="1.2 0 0" scale="0.1 0.1 0.1" rotation="-90 0 0"  ></a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>

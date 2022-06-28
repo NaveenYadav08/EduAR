@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Planets</title>
+  <meta charset="utf-8">
+</head>
+<script src="../Assets/Scripts/scene.js"></script>
+<script src="../Assets/Scripts/augmented.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+
+    <a-scene embedded arjs='sourceType: webcam;'>
+
+    <a-assets>
+    <a-asset-item id="earth" src="../Assets/Models/planets/earth/scene.gltf">
+    <a-asset-item id="jupiter" src="../Assets/Models/planets/jupiter/scene.gltf">
+    <a-asset-item id="venus" src="../Assets/Models/planets/venus/scene.gltf">
+  </a-assets>
+
+
+  <!-- Using the asset management system. -->
+  
+    <!--earth-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/planets/earth.patt'>
+        <a-gltf-model src="#earth" scale="4 4 4" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--jupiter-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/planets/jupiter.patt'>
+        <a-gltf-model src="#jupiter" scale="0.8 0.8 0.8" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--venus-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/planets/venus.patt'>
+      <a-entity animation-mixer gltf-model="#venus"  scale="0.3 0.3 0.3" rotation="-90 0 0"  ></a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>

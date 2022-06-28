@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sucrose Molecule
+* source:	https://sketchfab.com/3d-models/sucrose-molecule-adc74f80cf52473cb42ec0e999de7f77
+* author:	Justus Mutanen (https://sketchfab.com/justusmutanen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sucrose Molecule" (https://sketchfab.com/3d-models/sucrose-molecule-adc74f80cf52473cb42ec0e999de7f77) by Justus Mutanen (https://sketchfab.com/justusmutanen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

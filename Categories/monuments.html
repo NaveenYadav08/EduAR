@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Monuments</title>
+  <meta charset="utf-8">
+</head>
+<script src="../Assets/Scripts/scene.js"></script>
+<script src="../Assets/Scripts/augmented.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+
+    <a-scene embedded arjs='sourceType: webcam;'>
+
+    <a-assets>
+    <a-asset-item id="eff-tower" src="../Assets/Models/monuments/eff-tower/scene.gltf">
+    <a-asset-item id="taj-mahal" src="../Assets/Models/monuments/taj-mahal/scene.gltf">
+    <a-asset-item id="liberty" src="../Assets/Models/monuments/liberty/scene.gltf">
+  </a-assets>
+
+
+  <!-- Using the asset management system. -->
+  
+    <!--eff-tower-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/monuments/eff.patt'>
+        <a-gltf-model src="#eff-tower" scale="0.1 0.1 0.1" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--taj-mahal-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/monuments/taj.patt'>
+        <a-gltf-model src="#taj-mahal" scale="0.01 0.01 0.01" rotation="-90 0 0" ></a-gltf-model>
+    </a-marker>
+
+    <!--liberty-->
+    <a-marker preset='custom' type='pattern' url='../Assets/Markers/monuments/lib.patt'>
+      <a-entity animation-mixer gltf-model="#liberty"  scale="0.1 0.1 0.1" rotation="-90 0 0"  ></a-entity>
+    </a-marker>
+
+    <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
