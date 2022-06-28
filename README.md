@@ -1,9 +1,7 @@
-# EduAR
-asically this is learning platform for kids to know about alphabets, geometrical shapes and also helpful to students who want to know about organs and molecules using Augmented Reality
 
 
 
-# LearniFy🔥![GitHub watchers] ![GitHub Repo stars](https://img.shields.io/github/stars/Aman12305/Learnify_AR_Project?style=social) ![](https://visitor-badge.glitch.me/badge?page_id=Aman12305/Learnify_AR_Project")
+# EduAR🔥
 
 
 **[Learnify](https://bit.ly/learnifyAr)**  is learning platform for kids to know about alphabets, geometrical shapes and also helpful to students who want to know about organs and molecules using Augmented Reality
