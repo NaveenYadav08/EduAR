@@ -4,16 +4,19 @@
 # EduAR🔥
 
 
-**[Learnify](https://bit.ly/learnifyAr)**  is learning platform for kids to know about alphabets, geometrical shapes and also helpful to students who want to know about organs and molecules using Augmented Reality
+This is learning platform for kids to know about alphabets, geometrical shapes and also helpful to students who want to know about organs and molecules using Augmented Reality
 
 
 ## ✅ Features
 
 - Alphabets denoting objects
-- Organs
+- Flags
 - Augmented Reality
-- Geometrical Shape
+- Monuments
+- Planets
 - Responsive
+
+
 ## 🐣 Demo
 
 ![opera_TWUPh9ARnE](https://user-images.githubusercontent.com/93370526/173077439-761d610e-6f7f-4ab1-898e-22101f70288a.png)
